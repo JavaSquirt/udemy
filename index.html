@@ -5,11 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Welcome</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen" href="main.css">    
+    <link rel="stylesheet" media="screen" href="css/main.css">    
 </head>
 <body>
-    <p>Hello, i am a paragraph tag.</p>
-    <h1>I am a h1 tag.</h1>
-    <hr>
+
+    <hr width="50%" align="left">
+    
+    <form method="" action="">
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="user_name" id="name"><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="user_age" id="age"><br>
+
+        <label for="Gender">Gender:</label><br>
+        <label for="male"><input type="radio" name="gender" id="male">Male</label>
+        <label for="female"><input type="radio" name="gender" id="female">Female</label><br>
+
+        <label for="">Preferred Country(ies):</label><br>
+        <label for="ghana"><input type="checkbox" name="country" id="ghana">Ghana</label><br>
+        <label for="usa"><input type="checkbox" name="country" id="usa">USA</label><br>
+        <label for="india"><input type="checkbox" name="country" id="india">India</label><br>
+        <label for="uk"><input type="checkbox" name="country" id="uk">UK</label><br>
+        <label for="japan"><input type="checkbox" name="country" id="japan">Japan</label><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="user_mail" id="email"><br>
+
+        <label for="about">Tell us about yourself:</label><br>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Send"><button type="reset">Reset</button>
+        
+
+    </form>
+
+    <hr width="50%" align="left">
+
 </body>
 </html>
